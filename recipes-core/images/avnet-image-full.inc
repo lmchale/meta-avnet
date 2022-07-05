@@ -37,11 +37,12 @@ IMAGE_INSTALL:append:zynq = "\
 # the providing layer (meta-vitis-ai https://github.com/Xilinx/meta-vitis-ai) not being compatible with 2021.2 and
 # Yocto honister yet.
 
+# Removed gpio-utils due to compile issues (unsupported relocation)
+
 IMAGE_INSTALL:append:zynqmp = "\
         bridge-utils \
         cmake \
         dnf \
-        gpio-utils \
         json-c \
         libpython3 \
         lmsensors-sensorsdetect \

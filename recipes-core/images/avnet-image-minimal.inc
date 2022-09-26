@@ -57,9 +57,6 @@ IMAGE_INSTALL:append:u96v2-sbc = "\
         git \
         iw \
         libftdi \
-        openamp-fw-echo-testd \
-        openamp-fw-mat-muld \
-        openamp-fw-rpc-demo \
         packagegroup-base-extended \
         packagegroup-petalinux \
         packagegroup-petalinux-96boards-sensors \
